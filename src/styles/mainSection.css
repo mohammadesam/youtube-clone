@@ -1,0 +1,83 @@
+:root {
+}
+.MainSectionContainer {
+  width: 40vw;
+  flex: 1;
+  padding: 20px 20px;
+  transform: translate(var(--sideBarWidth), 100px);
+  border-top: solid 1px #373737;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 260px));
+  grid-template-rows: repeat(auto, minmax(170px, 300px));
+  grid-gap: 10px;
+}
+
+.videoCard {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.thumb {
+  width: 100%;
+  height: 60%;
+}
+
+.videoCard > .thumb > img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  display: block;
+}
+
+.videoCard > .title {
+  padding: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.videoCard .title > img {
+  border-radius: 50%;
+  margin: 5px 10px 0 0;
+}
+
+.bottomCardSection {
+  display: flex;
+  flex-direction: column;
+  padding: 0 41px;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+}
+
+.bottomCardSection .status {
+  display: flex;
+}
+
+.bottomCardSection .status > * {
+  margin: 0 5px 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .MainSectionContainer {
+    transform: translate(5px, 100px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .MainSectionContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .MainSectionContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .MainSectionContainer {
+    padding: 0 5px 0 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

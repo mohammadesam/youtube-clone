@@ -1,0 +1,28 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #181818;
+  overflow-x: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+Header {
+  position: fixed;
+  width: 98%;
+  z-index: 9;
+}
+
+:root {
+  --headerHeight: 56px;
+}
+
+.bottomPage {
+  display: flex;
+  width: 100vw;
+  overflow-x: hidden;
+}

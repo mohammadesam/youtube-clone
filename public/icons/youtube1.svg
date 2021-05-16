@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="512pt"
+   viewBox="0 -77 512.00213 512"
+   width="512pt"
+   version="1.1"
+   id="svg56"
+   sodipodi:docname="youtube.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata62">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs60">
+    <rect
+       x="165.59176"
+       y="13.40823"
+       width="336.89358"
+       height="78.989174"
+       id="rect66" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview58"
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="296.40698"
+     inkscape:cy="346.55454"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg56"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <text
+     xml:space="preserve"
+     id="text64"
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:30.00012391px;white-space:pre;shape-inside:url(#rect66);" />
+  <path
+     d="m 199.34312,120.60804 c -2.31976,-8.19187 -9.11625,-14.64908 -17.73509,-16.85498 -15.74696,-4.095211 -78.73476,-4.095211 -78.73476,-4.095211 0,0 -62.986279,0 -78.733232,3.939101 -8.453029,2.20444 -15.4153405,8.82068 -17.7350875,17.01109 -4.143612,14.96275 -4.143612,45.99413 -4.143612,45.99413 0,0 0,31.18748 4.143612,45.99413 2.321282,8.19042 9.1162515,14.64909 17.7366225,16.85498 15.911225,4.09521 78.733237,4.09521 78.733237,4.09521 0,0 62.98626,0 78.73322,-3.9391 8.62037,-2.20444 15.41533,-8.66311 17.73662,-16.85353 4.14361,-14.96421 4.14361,-45.99413 4.14361,-45.99413 0,0 0.16581,-31.18894 -4.14514,-46.15169 z m 0,0"
+     fill="#f00"
+     id="path52"
+     style="fill:#ff0000;stroke-width:0.383129" />
+  <path
+     d="M 78.33326,201.30866 139.35594,167.85713 78.33326,134.4056 Z m 0,0"
+     fill="#ffffff"
+     id="path54"
+     style="stroke-width:0.446711" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:30.0001px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:138.523;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.750003"
+     x="357.83047"
+     y="67.653816"
+     id="text72"
+     transform="matrix(2.409097,0,0,5.0638006,-650.121,-112.27456)"><tspan
+       x="357.83047"
+       y="67.653816"><tspan
+         style="fill:#ffffff;stroke-width:0.750003">YouTube</tspan></tspan></text>
+</svg>

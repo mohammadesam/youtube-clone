@@ -1,0 +1,117 @@
+:root {
+  --headerHeight: 56px;
+  --headerPadding: 20px;
+}
+
+.container > header > ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  height: var(--headerHeight);
+  padding: 0px var(--headerPadding);
+}
+
+.container > header > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > header > ul > li.leftSide > div {
+  margin: 0 2px;
+}
+
+.container > header > ul > li > div {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.searchBarCon {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+
+.searchBarCon > input {
+  height: 30px;
+  width: 80%;
+  padding: 0 15px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #121212;
+  border: solid 1px #303030;
+  margin: 1px;
+  outline: none;
+}
+
+.searchBarCon > input:focus {
+  outline: solid 1px #2168be;
+}
+
+.searchBarCon > .searchBtn {
+  padding: 5px 20px;
+  background-color: #323232;
+}
+
+.searchBarCon > .voiceSearch {
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accountImage > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.catagoriesBar {
+  position: fixed;
+  width: 80%;
+  right: 2vw;
+  height: 50px;
+  background-color: #212121;
+  border-bottom: solid 1px #373737;
+  border-top: solid 1px #373737;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+}
+
+.catagoriesBar .label {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 9px;
+  border-radius: 30px;
+  margin: 0 5px;
+  background-color: #363636;
+  color: white;
+  box-shadow: 1px 1px #4a4a4a;
+  cursor: pointer;
+}
+
+.catagoriesBar > .label.selected {
+  background-color: white;
+  color: #666666;
+}
+
+@media screen and (max-width: 800px) {
+  .searchBarCon {
+    display: none;
+  }
+
+  .catagoriesBar {
+    width: 98%;
+  }
+
+  .rightSide > .search {
+    display: block;
+  }
+}
